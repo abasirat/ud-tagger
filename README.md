@@ -13,3 +13,6 @@ In case of using pre-trained word-embeddings set the path to the embeddings too 
 The list ````tags```` holds the target tags to be predicted. 
 
 # Requirements
+- python3
+- numpy
+- keras
