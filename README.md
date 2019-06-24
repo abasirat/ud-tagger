@@ -8,6 +8,7 @@ This repository is an implementation of a multi-task neural network model to tag
 The two context representations are concatenated and fed to different activation layers related to multiple tags of the word. 
 
 # Usage
-In ```driver.py```, set the paths to the training, validation, and test conllu files. In case of using pre-trained word-embeddings set the path to the embeddings too. Some other parameters such as the maximum number of words for which individual word embeddings will be considered can also be set in this file. 
+In ```driver.py```, set the paths to the training, validation, and test conllu files. In case of using pre-trained word-embeddings set the path to the embeddings too (```emb_file````). Some other parameters such as the maximum number of words for which individual word embeddings will be considered can also be set in this file. 
+The list ````tags```` holds the target tags to be predicted. 
 
 # Requirements
