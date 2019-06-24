@@ -44,21 +44,6 @@ chars = Label('FORM', list(set(chars)))
 upos_tags = training_corpus.tagset['UPOS'] | validation_corpus.tagset['UPOS']
 upos = Label('UPOS', list(upos_tags), discrete=True)
 
-xpos_tags = training_corpus.tagset['XPOS'] | validation_corpus.tagset['XPOS']
-xpos = Label('XPOS', list(xpos_tags), discrete=True)
-
-number_feat = training_corpus.tagset['Number'] | validation_corpus.tagset['Number']
-number = Label('Number', list(number_feat), discrete=True)
-
-gender_feat = training_corpus.tagset['Gender'] | validation_corpus.tagset['Gender']
-gender = Label('Gender', list(gender_feat), discrete=True)
-
-deprel_tag = training_corpus.tagset['DEPREL'] | validation_corpus.tagset['DEPREL']
-deprel = Label('DEPREL', list(deprel_tag), discrete=True)
-
-head_domain = list(zip(np.min(emb_mat, axis=0), np.max(emb_mat,axis=0)))
-head = Label('HEAD', head_domain, discrete=False, dictionary=emb)
-
 batch_size=10
 tags = [upos]
 training_generator = UDDataGenerator(training_corpus, forms, chars, tags)
