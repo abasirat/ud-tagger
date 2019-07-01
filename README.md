@@ -16,3 +16,58 @@ The list ````tags```` holds the target tags to be predicted.
 - python3
 - numpy
 - keras
+
+# Performance
+The accuracy of the ud-tagger on the development sets of the corpus of universal dependencies. Individual tagging models are trained to predict each tag set.
+|corpus|UDTAG|
+|------|-----|
+|Afrikaans-AfriBooms|0.9364|
+|Ancient_Greek-Perseus|0.8496|
+|Arabic-PADT|0.9378|
+|Basque-BDT|0.8868|
+|Belarusian-HSE|0.8109|
+|Bulgarian-BTB|0.9577|
+|Catalan-AnCora|0.9520|
+|Coptic-Scriptorium|0.9112|
+|Croatian-SET|0.9296|
+|Czech-CLTT|0.9589|
+|Danish-DDT|0.9234|
+|Dutch-LassySmall|0.9134|
+|English-LinES|0.9296|
+|Estonian-EDT|0.8966|
+|Finnish-TDT|0.8637|
+|French-FTB|0.3092|
+|Gothic-PROIEL|0.9265|
+|Greek-GDT|0.9201|
+|Hebrew-HTB|0.9426|
+|Hindi_English-HIENCS|0.3127|
+|Hungarian-Szeged|0.8062|
+|Indonesian-GSD|0.8637|
+|Italian-ISDT|0.9546|
+|Japanese-GSD|0.9565|
+|Korean-Kaist|0.9296|
+|Latin-ITTB|0.9597|
+|Latvian-LVTB|0.8871|
+|Lithuanian-HSE|0.6671|
+|Maltese-MUDT|0.9082|
+|Marathi-UFAL|0.7178|
+|Norwegian-Bokmaal|0.9471|
+|Old_Church_Slavonic-PROIEL|0.9298|
+|Old_French-SRCMF|0.9318|
+|Persian-Seraji|0.9510|
+|Polish-LFG|0.9419|
+|Portuguese-GSD|0.9427|
+|Romanian-Nonstandard|0.9455|
+|Russian-SynTagRus|0.9559|
+|Serbian-SET|0.9180|
+|Slovak-SNK|0.8412|
+|Spanish-AnCora|0.9546|
+|Swedish-LinES|0.9152|
+|Swedish_Sign_Language-SSLC|0.5263|
+|Tamil-TTB|0.7649|
+|Telugu-MTG|0.8755|
+|Turkish-IMST|0.8859|
+|Ukrainian-IU|0.9104|
+|Urdu-UDTB|0.9182|
+|Uyghur-UDT|0.8310|
+|Vietnamese-VTB|0.8727|
