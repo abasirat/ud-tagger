@@ -20,7 +20,6 @@ The list ````tags```` holds the target tags to be predicted.
 # Performance
 The accuracy of the ud-tagger on the development sets of the corpus of universal dependencies. Individual tagging models are trained to predict each tag set.
 
-| - | single | task|
 |corpus|UPOS|DEPREL|
 |------|-----|-----|
 |Afrikaans-AfriBooms|0.9364|0.8340|
