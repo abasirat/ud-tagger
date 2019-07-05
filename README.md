@@ -18,7 +18,7 @@ The list ````tags```` holds the target tags to be predicted.
 - keras
 
 # Performance
-The accuracy of the ud-tagger on the development sets of the corpus of universal dependencies. Individual tagging models are trained to predict each tag set.
+The accuracy of the ud-tagger on the development sets of the corpus of universal dependencies. Individual tagging models, I-UPOS and I-DEPREL are trained individually, but joint tagging models, J-UPOS and J-DEPREL, are trained jointly. The columns D-UPOS and D-DEPREL show the difference between the accuracy obtained from joint and individual models.
 
 |corpus|I-UPOS|I-DEPREL|J-UPOS|J-DEPREL|D-UPOS|D-DEPREL|
 |------|-----|-----|-----|-----|-----|-----|
